@@ -1,1 +1,3 @@
-Minimal web 2 Lead example for close.io. Requires HTTParty to talk with close.io, and Sinatra for serving up the form, and Slim, because it's a phat templating language.  JSON uses the lead hash, filling necessary parameters from the Sinatra form.
+Minimal web to lead example for the close.io API.
+
+Requires HTTParty to connect with close.io, Sinatra to serve the form, and Slim, because it's a phat templating language.  The "lead" hash is converted to JSON, from from Sinatra form parameters.
